@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1 {
+    margin: 0 auto ;
+    font-size: 500%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #ffa45b;
+}
+
+a {
+    color: #ffa45b;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+    height: 0px;
+}
+
+/* -------------------------Class Styles--------------------------- */
+
+.nameHeader {
+    margin-top: 0;
+}
+
+.topContainer {
+        background-color: #aee6e6;
+        padding-top: 200px;
+}
+
+
+.bottomContainer {
+    background-color: #aee6e6;
+    padding: 20px;
+    margin: 0;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 20%;
+    top: 250px;
+    height: 200px;
+}
+.topCloud {
+    position: absolute;
+    top: 30px;
+    right: 20%;
+    height: 200px;
+}
+
+.profile {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skills {
+    margin: 0 auto;
+}
+
+.skill-row {
+    margin: 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+
+.tiramisu {
+    margin-right: 30px;
+    float: left;
+}
+
+.beer {
+    margin-left: 30px;
+    float: right;
+}
+
+.footer-link {
+    font-size: 150%;
+    color: #1a508b;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ffa45b;
+}
+
+.contact-me {
+    padding: 30px;
+}
+
+.BUTTON_DGF {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 18px;
+    background-color: #FFA45B;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_DGF:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
